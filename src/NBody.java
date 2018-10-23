@@ -73,7 +73,7 @@ public class NBody {
 	}
 	public static void main(String[] args) throws FileNotFoundException{
 		double totalTime = 1000000000;
-		double dt = 1000000;
+		double dt = 25000;
 		
 		String fname= "./data/planets.txt";
 		if (args.length > 2) {
